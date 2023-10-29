@@ -1,0 +1,1 @@
+audio_play_sound(My_Audio10, 0, 1)
