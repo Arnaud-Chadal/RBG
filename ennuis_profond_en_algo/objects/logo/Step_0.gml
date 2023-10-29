@@ -22,8 +22,3 @@ if spd != 0
 		}
 	}
 }
-
-if (room = playground and vagues.dead = 0) or room = shop
-{
-	visible = 0	
-}else visible = 1

@@ -7,7 +7,7 @@ if size < 1 and vagues.dead = 0
 	{
 		sens = -1
 	}
-size -+= 0.02*sens
+size += 0.02*sens
 
 if size = 0
 {

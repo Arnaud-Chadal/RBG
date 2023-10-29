@@ -1,17 +1,23 @@
-xspd = 1
+if vagues.event = 1
+{
+	xspd = 8
+}else xspd = 1
 yspd = 0
 size = 1
 sens = 1
 sprite = 0
 way = irandom_range(1, 4)
 
-if vagues.lvl < 3
+if vagues.event != 1
 {
-	nbr = irandom_range(1, 4)
-}else if vagues.lvl < 5 and vagues.lvl > 2
+	if vagues.lvl < 3
 	{
-		nbr = irandom_range(1, 7)
-	}else nbr = irandom_range(1, 8)
+		nbr = irandom_range(1, 4)
+	}else if vagues.lvl < 5 and vagues.lvl > 2
+		{
+			nbr = irandom_range(1, 7)
+		}else nbr = irandom_range(1, 8)
+}else nbr = 2
 
 switch nbr
 {

@@ -9,10 +9,19 @@ if keyboard_check_pressed(ord("P"))
 	game_restart()
 }
 
-if room != playground and logo.spd = 0
+if room != playground
 {
-	if !audio_is_playing(menu_theme1) and !audio_is_playing(menu_theme2)
+	if room != menu
 	{
-		audio_play_sound(menu_theme2, 0, 0)
-	}
+		if !audio_is_playing(menu_theme1) and !audio_is_playing(menu_theme2)
+		{
+			audio_play_sound(menu_theme2, 0, 0)
+		}
+	}else if logo.spd = 0
+		{
+			if !audio_is_playing(menu_theme1) and !audio_is_playing(menu_theme2)
+			{
+				audio_play_sound(menu_theme2, 0, 0)
+			}
+		}
 }
