@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_snow_16","order":17,"path":"sprites/spr_snow_16/spr_snow_16.yy",},
+    {"name":"Sprite88","order":20,"path":"sprites/Sprite88/Sprite88.yy",},
     {"name":"score_spr","order":11,"path":"sprites/score_spr/score_spr.yy",},
     {"name":"spr_pulse_16","order":13,"path":"sprites/spr_pulse_16/spr_pulse_16.yy",},
     {"name":"spr_rock_32","order":15,"path":"sprites/spr_rock_32/spr_rock_32.yy",},
@@ -38,6 +39,7 @@
     {"name":"spr_ring_16","order":14,"path":"sprites/spr_ring_16/spr_ring_16.yy",},
     {"name":"sidebar","order":6,"path":"objects/sidebar/sidebar.yy",},
     {"name":"spr_heart_8","order":9,"path":"sprites/spr_heart_8/spr_heart_8.yy",},
+    {"name":"door","order":9,"path":"objects/door/door.yy",},
     {"name":"spr_line_32","order":10,"path":"sprites/spr_line_32/spr_line_32.yy",},
     {"name":"_372198__original_sound__error_bleep_3","order":15,"path":"sounds/_372198__original_sound__error_bleep_3/_372198__original_sound__error_bleep_3.yy",},
     {"name":"spr_nuke_16","order":11,"path":"sprites/spr_nuke_16/spr_nuke_16.yy",},

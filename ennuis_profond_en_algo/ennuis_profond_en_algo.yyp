@@ -46,6 +46,7 @@
   },
   "resources": [
     {"id":{"name":"spr_snow_16","path":"sprites/spr_snow_16/spr_snow_16.yy",},},
+    {"id":{"name":"Sprite88","path":"sprites/Sprite88/Sprite88.yy",},},
     {"id":{"name":"score_spr","path":"sprites/score_spr/score_spr.yy",},},
     {"id":{"name":"spr_pulse_16","path":"sprites/spr_pulse_16/spr_pulse_16.yy",},},
     {"id":{"name":"spr_rock_32","path":"sprites/spr_rock_32/spr_rock_32.yy",},},
@@ -69,6 +70,7 @@
     {"id":{"name":"spr_ring_16","path":"sprites/spr_ring_16/spr_ring_16.yy",},},
     {"id":{"name":"sidebar","path":"objects/sidebar/sidebar.yy",},},
     {"id":{"name":"spr_heart_8","path":"sprites/spr_heart_8/spr_heart_8.yy",},},
+    {"id":{"name":"door","path":"objects/door/door.yy",},},
     {"id":{"name":"spr_line_32","path":"sprites/spr_line_32/spr_line_32.yy",},},
     {"id":{"name":"_372198__original_sound__error_bleep_3","path":"sounds/_372198__original_sound__error_bleep_3/_372198__original_sound__error_bleep_3.yy",},},
     {"id":{"name":"spr_nuke_16","path":"sprites/spr_nuke_16/spr_nuke_16.yy",},},

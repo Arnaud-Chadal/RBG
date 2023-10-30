@@ -3,7 +3,10 @@ switch y
 
 	case 400 :
 		audio_stop_sound(menu_theme1)
-		room = playground
+		instance_create_layer(-64, 384, "Instances_2", door,{
+			sens : 1})
+		instance_create_layer(496, 384, "Instances_2", door,{
+			sens : 2})
 		break
 	
 	case 500 :
