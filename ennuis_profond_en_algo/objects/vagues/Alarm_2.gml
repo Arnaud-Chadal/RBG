@@ -1,4 +1,4 @@
-var nbr = irandom_range(1, 1)
+var nbr = irandom_range(0, 0)
 
 switch nbr
 {

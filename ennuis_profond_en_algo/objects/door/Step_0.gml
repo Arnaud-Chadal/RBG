@@ -14,6 +14,7 @@ if (x = 216 or x = -64 or x = 496) and stop = 0
 	}
 	if (image_index = 0 and spd < 0) or (image_index = 1 and spd > 0)
 	{
+		scr_particles_create_burst(x, y, 10, 3, 150)
 		alarm[0] = 60	
 	}
 }

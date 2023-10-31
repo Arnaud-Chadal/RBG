@@ -134,4 +134,17 @@ function scr_PiXELCANDY_ptypes_create() {
 	part_type_gravity    (sprParticle[9], 0, 270);
 	
 	
+	sprParticle[10] = part_type_create();
+	part_type_sprite     (sprParticle[10], spr_square_16, false, false, false);
+	part_type_life       (sprParticle[10], 10, 60);
+	part_type_direction  (sprParticle[10], 0, 360, 0, 0);
+	part_type_orientation(sprParticle[10], 90, 90, -0.00, -0.00, 0);
+	part_type_speed      (sprParticle[10], 1.50, 2, 0, 0);
+	part_type_size       (sprParticle[10], 0.10, 1, 0.01, 0);
+	part_type_alpha3     (sprParticle[10], 0.90, 1, 0);
+	part_type_colour3    (sprParticle[10], make_colour_rgb(255, 255, 255), make_colour_rgb(203, 219, 252), make_colour_rgb(155, 173, 183));
+	part_type_blend      (sprParticle[10], 0);
+	part_type_gravity    (sprParticle[10], 0, 360);
+	
+	
 }

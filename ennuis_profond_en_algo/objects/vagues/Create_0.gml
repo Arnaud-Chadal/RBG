@@ -3,13 +3,6 @@ depth = 10000
 dead = 0
 event = 0
 
-
-globalvar sprSystem, sprEmitter, sprParticle, sprDepth;
-sprDepth = -1; // particle depthv
-
-scr_psystem_create();
-scr_PiXELCANDY_ptypes_create();
-
 instance_create_layer(x, y, "Instances_1", tank, {
 	color : 2})
 	

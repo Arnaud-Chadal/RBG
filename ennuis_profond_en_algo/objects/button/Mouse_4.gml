@@ -2,28 +2,31 @@ switch y
 {
 
 	case 400 :
-		audio_stop_sound(menu_theme1)
 		door.stop = 0
 		door.r = playground
 		break
 	
 	case 500 :
-		room = shop
+		door.stop = 0
+		door.r = shop
 		break
 	
 	case 600 :
 		if room = menu
 		{
-			room = inventaire
+			door.stop = 0
+			door.r = inventaire
 		}else
 			{
-				room = playground
 				audio_stop_sound(menu_theme1)
 				audio_stop_sound(menu_theme2)
-			}
+				door.stop = 0
+				door.r = playground
+			}		
 		break
 	
 	case 700 :
-		room = menu
+		door.stop = 0
+		door.r = menu
 		break
 }

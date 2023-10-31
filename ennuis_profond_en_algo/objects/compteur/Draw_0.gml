@@ -1,4 +1,4 @@
-if vagues.dead = 0 and door.stop = 1
+if vagues.dead = 0
 {
 	var cent = vagues.point div 100
 	var diz = (vagues.point - cent*100) div 10

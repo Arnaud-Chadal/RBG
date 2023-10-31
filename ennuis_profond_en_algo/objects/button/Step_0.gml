@@ -20,7 +20,7 @@ if start = 1
 		case 600 :
 			if room = playground
 			{
-				image_index = 3
+				image_index = 5
 				alarm[0] = 35
 			}else
 				{
@@ -30,9 +30,10 @@ if start = 1
 			break
 			
 		case 700 :
-			image_index = 2
+			
 			if room = playground
 			{
+				image_index = 4
 				alarm[0] = 65
 			}else
 				{
