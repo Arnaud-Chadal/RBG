@@ -2,6 +2,10 @@ ligne = 0
 depth = 10000
 dead = 0
 event = 0
+ini_open("data.ini")
+best = ini_read_real("data", "highscore", 0)
+ini_close()
+
 
 instance_create_layer(x, y, "Instances_1", tank, {
 	color : 2})

@@ -1,4 +1,5 @@
-game_load("data.save")
+ini_open("data.ini")
+ini_close()
 
 audio_group_load(music)
 audio_group_load(sfx)

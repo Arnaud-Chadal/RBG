@@ -24,6 +24,14 @@ if (point div 10) > lvl-1
 
 if hp < 1 and dead = 0
 {
+	if (point > best)
+	{
+		ini_open("data.ini")
+	    ini_write_real("data", "highscore", point)
+		ini_close()
+	    best = point
+	}
+	ini_close()
 	audio_play_sound(big_explosion_sfx, 1, 0, 15)
 	audio_stop_sound(My_Audio10)
 	dead = 1
