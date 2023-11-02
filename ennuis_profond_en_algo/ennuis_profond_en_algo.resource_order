@@ -62,6 +62,7 @@
     {"name":"_615576__adhdreaming__bit_bounce","order":19,"path":"sounds/_615576__adhdreaming__bit_bounce/_615576__adhdreaming__bit_bounce.yy",},
     {"name":"spr_spark_8","order":18,"path":"sprites/spr_spark_8/spr_spark_8.yy",},
     {"name":"Curseur","order":5,"path":"objects/Curseur/Curseur.yy",},
+    {"name":"mob2","order":19,"path":"objects/mob2/mob2.yy",},
     {"name":"spr_flare_16","order":6,"path":"sprites/spr_flare_16/spr_flare_16.yy",},
     {"name":"spr_pulse_32","order":13,"path":"sprites/spr_pulse_32/spr_pulse_32.yy",},
     {"name":"spr_ring_32","order":14,"path":"sprites/spr_ring_32/spr_ring_32.yy",},
