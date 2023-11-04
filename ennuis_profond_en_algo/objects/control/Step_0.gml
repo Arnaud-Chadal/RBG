@@ -23,3 +23,8 @@ if room != playground
 			}
 		}
 }
+
+if layer_sequence_is_finished(seq)
+{
+	layer_sequence_destroy(seq)
+}
