@@ -75,6 +75,7 @@
     {"id":{"name":"_372198__original_sound__error_bleep_3","path":"sounds/_372198__original_sound__error_bleep_3/_372198__original_sound__error_bleep_3.yy",},},
     {"id":{"name":"spr_nuke_16","path":"sprites/spr_nuke_16/spr_nuke_16.yy",},},
     {"id":{"name":"bounce_retro_sfx","path":"sounds/bounce_retro_sfx/bounce_retro_sfx.yy",},},
+    {"id":{"name":"spawnCube","path":"scripts/spawnCube/spawnCube.yy",},},
     {"id":{"name":"spr_star_16","path":"sprites/spr_star_16/spr_star_16.yy",},},
     {"id":{"name":"My_Audio8","path":"sounds/My_Audio8/My_Audio8.yy",},},
     {"id":{"name":"laser","path":"objects/laser/laser.yy",},},
