@@ -1,8 +1,7 @@
-if vagues.event = 1
+if vagues.event != 1
 {
-	xspd = 8
-}else xspd = 1
-yspd = 0
+	yspd = 1+vagues.lvl/3
+}else yspd = 5
 size = 1
 sens = 1
 sprite = 0

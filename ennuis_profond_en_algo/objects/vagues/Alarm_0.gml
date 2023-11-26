@@ -1,6 +1,7 @@
 if viseur.touch = 0 and dead = 0
 {
-	instance_create_layer(470, 28, "Instances_1", mob)
+	var lignex = 158+irandom_range(0, 3)*80
+	instance_create_layer(lignex, 28, "Instances_1", mob)
 	if event != 1
 	{
 		alarm[0] = irandom_range(f1, f2)

@@ -42,7 +42,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_snow_16","path":"sprites/spr_snow_16/spr_snow_16.yy",},},
