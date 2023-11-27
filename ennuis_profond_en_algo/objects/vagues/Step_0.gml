@@ -36,7 +36,7 @@ if hp < 1 and dead = 0
 	audio_stop_sound(My_Audio10)
 	dead = 1
 	instance_create_layer(216, -32, "Instances", logo)
-	instance_create_layer(-164, 700, "Instances", button)
-	instance_create_layer(-164, 600, "Instances", button)
+	instance_create_layer(-164, 748, "Instances", button)
+	instance_create_layer(-164, 632, "Instances", button)
 	instance_create_layer(-164, 400, "Instances", score_obj)
 }

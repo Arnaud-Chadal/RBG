@@ -1,3 +1,5 @@
+clicked = 1
+
 switch y
 {
 
@@ -6,12 +8,12 @@ switch y
 		door.r = playground
 		break
 	
-	case 500 :
+	case 516 :
 		door.stop = 0
 		door.r = shop
 		break
 	
-	case 600 :
+	case 632 :
 		if room = menu
 		{
 			door.stop = 0

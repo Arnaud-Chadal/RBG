@@ -3,44 +3,10 @@ if x < 216 and ready = 1
 	x += 20
 }
 
-if start = 1
-{						
-	switch y
+if not clicked
+{
+	if place_meeting(x, y, viseur)
 	{
-		case 400 :
-			image_index = 1
-			alarm[0] = 5
-			break
-			
-		case 500 :
-			image_index = 2
-			alarm[0] = 35
-			break
-			
-		case 600 :
-			if room = playground
-			{
-				image_index = 5
-				alarm[0] = 35
-			}else
-				{
-					image_index = 3
-					alarm[0] = 65
-				}
-			break
-			
-		case 700 :
-			
-			if room = playground
-			{
-				image_index = 4
-				alarm[0] = 65
-			}else
-				{
-					image_index = 3
-					alarm[0] = 65
-				}
-			break
-	}
-	start = 0
-}
+		image_index = image + 1
+	}else image_index = image
+}else image_index = image + 2

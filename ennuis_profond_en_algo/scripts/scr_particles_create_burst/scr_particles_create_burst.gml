@@ -15,6 +15,7 @@ function scr_particles_create_burst(argument0, argument1, argument2, argument3, 
 	    case 1: part_emitter_region(sprSystem, sprEmitter[1], px-5, px+5, py-14, py+14, ps_shape_diamond, ps_distr_linear); break;
 	    case 2: part_emitter_region(sprSystem, sprEmitter[2], px-16, px+16, py-1, py+1, ps_shape_diamond, ps_distr_linear); break;
 		case 3 : part_emitter_region  (sprSystem, sprEmitter, x, x, y-384, y+384, ps_shape_line, ps_distr_linear); break
+		case 4 : part_emitter_region  (sprSystem, sprEmitter, x, x, y-384, y+384, ps_shape_line, ps_distr_linear); break
 	}
 	part_emitter_burst(sprSystem, sprEmitter, sprParticle[pt], pn);
 
