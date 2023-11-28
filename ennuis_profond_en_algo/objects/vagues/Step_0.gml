@@ -22,6 +22,24 @@ if (point div 10) > lvl-1
 				}
 }
 
+
+for (var i=0; i<3; i+=1)
+{
+	if r[i] > 0
+	{
+		r[i] -= 1
+	}
+	if g[i] > 0
+	{
+		g[i] -= 1
+	}
+	if b[i] > 0
+	{
+		b[i] -= 1
+	}
+}
+
+
 if hp < 1 and dead = 0
 {
 	if point > best
