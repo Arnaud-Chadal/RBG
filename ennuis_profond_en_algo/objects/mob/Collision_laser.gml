@@ -1,14 +1,6 @@
 scr_particles_create(x, y, 4, 10)
 
-
-for (var i = 0; i < 3; i+= 1)
-{
-	if color[i] = 255
-	{
-		vagues.hp -= 1
-	}
-}
-
+vagues.hp -= 1
 
 if cam.move = 0
 {
