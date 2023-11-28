@@ -1,4 +1,4 @@
-if nbr != 4
+if nbr != 0
 {
 	switch other.color
 	{

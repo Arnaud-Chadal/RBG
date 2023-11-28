@@ -106,6 +106,7 @@
     {"name":"woosh_sfx","order":20,"path":"sounds/woosh_sfx/woosh_sfx.yy",},
     {"name":"menu_theme1","order":13,"path":"sounds/menu_theme1/menu_theme1.yy",},
     {"name":"viseur","order":13,"path":"objects/viseur/viseur.yy",},
+    {"name":"Sprite89","order":21,"path":"sprites/Sprite89/Sprite89.yy",},
     {"name":"spr_square_16","order":20,"path":"sprites/spr_square_16/spr_square_16.yy",},
     {"name":"control","order":18,"path":"objects/control/control.yy",},
     {"name":"spr_disc_32","order":4,"path":"sprites/spr_disc_32/spr_disc_32.yy",},

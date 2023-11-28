@@ -140,6 +140,7 @@
     {"id":{"name":"woosh_sfx","path":"sounds/woosh_sfx/woosh_sfx.yy",},},
     {"id":{"name":"menu_theme1","path":"sounds/menu_theme1/menu_theme1.yy",},},
     {"id":{"name":"viseur","path":"objects/viseur/viseur.yy",},},
+    {"id":{"name":"Sprite89","path":"sprites/Sprite89/Sprite89.yy",},},
     {"id":{"name":"spr_square_16","path":"sprites/spr_square_16/spr_square_16.yy",},},
     {"id":{"name":"control","path":"objects/control/control.yy",},},
     {"id":{"name":"spr_disc_32","path":"sprites/spr_disc_32/spr_disc_32.yy",},},

@@ -3,27 +3,27 @@ if (point div 10) > lvl-1
 	lvl += 1
 	instance_create_layer(0, 0, "Instances_1", lvlupobj)
 	audio_play_sound(My_Audio4, 0, 0)
-	if lvl > 1 and lvl < 5
+	if lvl > 1 and lvl < 4
 	{
-		f1 = 100
+		f1 = 60
 		f2 = 160
-	}else if lvl < 8 and lvl > 4
+	}else if lvl < 7 and lvl > 3
 		{
-			f1 = 80
+			f1 = 40
 			f2 = 140
-		}else if lvl > 9
+		}else if lvl < 9 and lvl > 6
 			{
-				f1 = 50
+				f1 = 40
 				f2 = 100
 			}else
 				{
-					f1 = 60
-					f2 = 120
+					f1 = 40
+					f2 = 60
 				}
 }
 
 
-for (var i=0; i<3; i+=1)
+for (var i=0; i<4; i+=1)
 {
 	if r[i] > 0
 	{
