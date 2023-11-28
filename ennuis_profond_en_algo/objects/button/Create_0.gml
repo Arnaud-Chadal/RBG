@@ -6,38 +6,29 @@ clicked = 0
 					
 switch y
 {
-	case 400 :
+	case 400 : //play
 		image = 0
 		alarm[0] = 5
 		break
 			
-	case 516 :
+	case 516 : //shop
 		image = 3
 		alarm[0] = 35
 		break
-			
-	case 632 :
-		if room = playground
-		{
-			image = 6
-			alarm[0] = 35
-		}else
-			{
-				image = 3
-				alarm[0] = 65
-			}
+		
+	case 584 : //retry
+		image = 12
+		alarm[0] = 35
 		break
-			
-	case 748 :
-			
-		if room = playground
-		{
-			image = 9
-			alarm[0] = 65
-		}else
-			{
-				image = 3
-				alarm[0] = 65
-			}
+
+	case 632 : //inv
+		image = 6
+		alarm[0] = 65
 		break
+		
+	case 700 : //menu
+		image = 9
+		alarm[0] = 65
+		break
+	
 }

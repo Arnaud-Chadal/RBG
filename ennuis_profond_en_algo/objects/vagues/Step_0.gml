@@ -24,7 +24,7 @@ if (point div 10) > lvl-1
 
 if hp < 1 and dead = 0
 {
-	if (point > best)
+	if point > best
 	{
 		ini_open("data.ini")
 		ini_write_real("data", "highscore", point)
@@ -35,8 +35,7 @@ if hp < 1 and dead = 0
 	audio_play_sound(big_explosion_sfx, 1, 0, 15)
 	audio_stop_sound(My_Audio10)
 	dead = 1
-	instance_create_layer(216, -32, "Instances", logo)
-	instance_create_layer(-164, 748, "Instances", button)
-	instance_create_layer(-164, 632, "Instances", button)
+	instance_create_layer(-164, 700, "Instances", button)
+	instance_create_layer(-164, 584, "Instances", button)
 	instance_create_layer(-164, 400, "Instances", score_obj)
 }

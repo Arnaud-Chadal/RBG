@@ -12,19 +12,17 @@ switch y
 		door.stop = 0
 		door.r = shop
 		break
-	
+		
+	case 584 :
+		audio_stop_sound(menu_theme1)
+		audio_stop_sound(menu_theme2)
+		door.stop = 0
+		door.r = playground
+		break
+				
 	case 632 :
-		if room = menu
-		{
-			door.stop = 0
-			door.r = inventaire
-		}else
-			{
-				audio_stop_sound(menu_theme1)
-				audio_stop_sound(menu_theme2)
-				door.stop = 0
-				door.r = playground
-			}		
+		door.stop = 0
+		door.r = inventaire		
 		break
 	
 	case 700 :
