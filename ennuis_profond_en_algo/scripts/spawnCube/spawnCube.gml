@@ -34,12 +34,12 @@ function spawnCube()
 			array_push(listeColor, 4)
 		}
 		
-		if lvl < 2
+		if lvl < 3
 		{
 			array_delete(listeColor, irandom_range(0, array_length(listeColor)-1), 1)
 			array_delete(listeColor, irandom_range(0, array_length(listeColor)-1), 1)
 		}
-		if lvl > 1 and lvl < 4
+		if lvl > 2 and lvl < 5
 		{
 			array_delete(listeColor, irandom_range(0, array_length(listeColor)-1), 1)
 		}

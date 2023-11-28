@@ -9,16 +9,16 @@ if (point div 10) > lvl-1
 		f2 = 160
 	}else if lvl < 7 and lvl > 3
 		{
-			f1 = 40
+			f1 = 60
 			f2 = 140
-		}else if lvl < 9 and lvl > 6
+		}else if lvl > 6 and lvl < 9
 			{
-				f1 = 40
+				f1 = 60
 				f2 = 100
 			}else
 				{
-					f1 = 40
-					f2 = 60
+					f1 = 60
+					f2 = 120
 				}
 }
 
