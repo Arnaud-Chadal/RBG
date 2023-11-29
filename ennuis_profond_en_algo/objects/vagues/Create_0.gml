@@ -29,3 +29,6 @@ f2 = 180
 r = [0, 0, 0, 0]
 g = [0, 0, 0, 0]
 b = [0, 0, 0, 0]
+
+//Swipe margin sets how accurate a swipe must be to be detected
+swipe_margin = 45

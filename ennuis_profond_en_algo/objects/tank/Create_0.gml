@@ -24,3 +24,6 @@ switch color
 		break
 	}
 }
+
+//Swipe margin sets how accurate a swipe must be to be detected
+swipe_margin = 45
