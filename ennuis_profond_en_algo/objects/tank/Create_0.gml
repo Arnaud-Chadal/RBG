@@ -27,3 +27,4 @@ switch color
 
 //Swipe margin sets how accurate a swipe must be to be detected
 swipe_margin = 45
+gesture_double_tap_time(0.5)

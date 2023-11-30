@@ -4,6 +4,7 @@ ini_close()
 audio_group_load(music)
 audio_group_load(sfx)
 
+
 randomize()
 
 globalvar sprSystem, sprEmitter, sprParticle, sprDepth;
