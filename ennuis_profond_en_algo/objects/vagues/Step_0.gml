@@ -1,8 +1,9 @@
 if (point div 10) > lvl-1
 {
 	lvl += 1
-	instance_create_layer(0, 0, "Instances_1", lvlupobj)
-	audio_play_sound(My_Audio4, 0, 0)
+	screens_obj.sprite_index = screens_lvlup_spr
+	screens_obj.image_index = 0
+	screens_obj.alarm[0] = 180
 	if lvl > 1 and lvl < 4
 	{
 		f1 = 60
@@ -53,7 +54,8 @@ if hp < 1 and dead = 0
 	audio_play_sound(big_explosion_sfx, 1, 0, 15)
 	audio_stop_sound(My_Audio10)
 	dead = 1
-	instance_create_layer(-164, 700, "Instances", button)
-	instance_create_layer(-164, 584, "Instances", button)
-	instance_create_layer(-164, 400, "Instances", score_obj)
+	instance_create_layer(235, -32, "Instances_2", logo)
+	instance_create_layer(-164, 700, "Instances_2", button)
+	instance_create_layer(-164, 584, "Instances_2", button)
+	instance_create_layer(-164, 400, "Instances_2", score_obj)
 }

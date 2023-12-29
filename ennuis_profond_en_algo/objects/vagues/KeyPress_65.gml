@@ -1,1 +1,1 @@
-hp = 0
+vagues.hp = 0

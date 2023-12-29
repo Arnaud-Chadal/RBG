@@ -130,8 +130,8 @@ function spawnCube()
 			}
 		}
 			
-		lignex = 158+lignex*80
-		instance_create_layer(lignex, -30, "Instances_1", mob,{
+		lignex = 72+lignex*96
+		instance_create_layer(lignex, 130, "Instances_1", mob,{
 			color : color_val,
 			nbr : nbr_val,
 			sprite : sprite_val})

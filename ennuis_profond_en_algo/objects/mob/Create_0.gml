@@ -1,6 +1,7 @@
 if vagues.event != 1
 {
-	yspd = 1+vagues.lvl/3
+	yspd = 0.75+vagues.lvl/3
 }else yspd = 5
-size = 1
-sens = 1
+
+image_xscale = 4
+image_yscale = 4

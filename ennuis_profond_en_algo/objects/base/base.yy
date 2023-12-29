@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "laser_base",
-    "path": "sprites/laser_base/laser_base.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

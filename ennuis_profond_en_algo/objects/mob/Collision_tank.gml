@@ -1,8 +1,8 @@
-if nbr != 0
+if nbr != 0 and other.actif
 {
 	switch other.color
 	{
-		case 2 :
+		case 0 :
 		{
 			if color[0] = 255
 			{
@@ -22,7 +22,7 @@ if nbr != 0
 			color[1] = 0
 			break
 		}
-		case 0 :
+		case 2 :
 		{
 			if color[2] = 255
 			{

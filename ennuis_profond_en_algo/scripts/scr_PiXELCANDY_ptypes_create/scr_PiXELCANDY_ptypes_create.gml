@@ -146,5 +146,4 @@ function scr_PiXELCANDY_ptypes_create() {
 	part_type_blend      (sprParticle[10], 0);
 	part_type_gravity    (sprParticle[10], 0, 360);
 	
-	
 }

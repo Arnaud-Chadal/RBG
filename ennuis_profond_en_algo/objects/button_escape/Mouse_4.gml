@@ -1,9 +1,6 @@
-if room = shop or room = inventaire
+if room  = menu
 {
 	room = menu
-}else if room = menu
-	{
-		room = menu
-		game_save("save.data")
-		game_end()
-	}
+	game_save("save.data")
+	game_end()
+}else room = menu

@@ -1,25 +1,27 @@
-x = 158
-sprite = tank_spr
-xspd = 0
-sens = 1
-size = 1
+image_xscale = 4
+image_yscale = 4
+colonne = (x-36)/96
+actif = 0
+field_img = 0
+imgspd = 0.5
+boltimg = 0
 switch color
 {
-	case 2 :
+	case 0 :
 	{
-		y = 553
+		y = 564
 		col = make_color_rgb(255, 0, 0)
 		break
 	}
 	case 1 :
 	{
-		y = 624
+		y = 612
 		col = make_color_rgb(0, 255, 0)
 		break
 	}
-	case 0 :
+	case 2 :
 	{
-		y = 696
+		y = 660
 		col = make_color_rgb(0, 0, 255)
 		break
 	}
