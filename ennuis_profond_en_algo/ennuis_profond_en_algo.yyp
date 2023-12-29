@@ -44,7 +44,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"spr_snow_16","path":"sprites/spr_snow_16/spr_snow_16.yy",},},
@@ -77,7 +77,7 @@
     {"id":{"name":"spawnCube","path":"scripts/spawnCube/spawnCube.yy",},},
     {"id":{"name":"spr_star_16","path":"sprites/spr_star_16/spr_star_16.yy",},},
     {"id":{"name":"My_Audio8","path":"sounds/My_Audio8/My_Audio8.yy",},},
-    {"id":{"name":"laser","path":"objects/laser/laser.yy",},},
+    {"id":{"name":"debug_commands","path":"objects/debug_commands/debug_commands.yy",},},
     {"id":{"name":"spr_explosion_16","path":"sprites/spr_explosion_16/spr_explosion_16.yy",},},
     {"id":{"name":"spr_sphere_32","path":"sprites/spr_sphere_32/spr_sphere_32.yy",},},
     {"id":{"name":"spr_gem_16","path":"sprites/spr_gem_16/spr_gem_16.yy",},},
@@ -139,7 +139,6 @@
     {"id":{"name":"spr_pulse_8","path":"sprites/spr_pulse_8/spr_pulse_8.yy",},},
     {"id":{"name":"My_Audio7","path":"sounds/My_Audio7/My_Audio7.yy",},},
     {"id":{"name":"spr_smoke_32","path":"sprites/spr_smoke_32/spr_smoke_32.yy",},},
-    {"id":{"name":"base","path":"objects/base/base.yy",},},
     {"id":{"name":"door_obj","path":"objects/door_obj/door_obj.yy",},},
     {"id":{"name":"woosh_sfx","path":"sounds/woosh_sfx/woosh_sfx.yy",},},
     {"id":{"name":"menu_theme1","path":"sounds/menu_theme1/menu_theme1.yy",},},

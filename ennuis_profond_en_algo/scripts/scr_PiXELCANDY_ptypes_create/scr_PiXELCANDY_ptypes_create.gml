@@ -90,7 +90,7 @@ function scr_PiXELCANDY_ptypes_create() {
 	part_type_speed      (sprParticle[6], 5.00, 1.50, -0.20, 0.00);
 	part_type_size       (sprParticle[6], 0.10, 1, 0.01, 0);
 	part_type_alpha3     (sprParticle[6], 0.90, 1, 0);
-	part_type_colour3    (sprParticle[6], make_colour_rgb(106, 190, 48), make_colour_rgb(106, 190, 48), make_colour_rgb(106, 190, 48));
+	part_type_colour3    (sprParticle[6], make_colour_rgb(172, 50, 50), make_colour_rgb(172, 50, 50), make_colour_rgb(172, 50, 50));
 	part_type_blend      (sprParticle[6], 0);
 	part_type_gravity    (sprParticle[6], 0, 270);
 	
@@ -103,7 +103,7 @@ function scr_PiXELCANDY_ptypes_create() {
 	part_type_speed      (sprParticle[7], 5.00, 1.50, -0.20, 0.00);
 	part_type_size       (sprParticle[7], 0.10, 1, 0.01, 0);
 	part_type_alpha3     (sprParticle[7], 0.90, 1, 0);
-	part_type_colour3    (sprParticle[7], make_colour_rgb(172, 50, 50), make_colour_rgb(172, 50, 50), make_colour_rgb(172, 50, 50));
+	part_type_colour3    (sprParticle[7], make_colour_rgb(106, 190, 48), make_colour_rgb(106, 190, 48), make_colour_rgb(106, 190, 48));
 	part_type_blend      (sprParticle[7], 0);
 	part_type_gravity    (sprParticle[7], 0, 270);
 	

@@ -132,6 +132,10 @@ function spawnCube()
 			
 		lignex = 72+lignex*96
 		instance_create_layer(lignex, 130, "Instances_1", mob,{
+			speed : 0.75+lvl/3,
+			direction : 270,
+			image_xscale : 4,
+			image_yscale : 4,
 			color : color_val,
 			nbr : nbr_val,
 			sprite : sprite_val})

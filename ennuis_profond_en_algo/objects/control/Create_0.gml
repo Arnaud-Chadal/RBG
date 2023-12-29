@@ -1,17 +1,14 @@
-ini_open("data.ini")
-ini_close()
-
+/// Fonctions de chargement
 audio_group_load(music)
 audio_group_load(sfx)
 
-
 randomize()
 
+
+/// Définie les variables globales pour les particules
 globalvar sprSystem, sprEmitter, sprParticle, sprDepth;
-sprDepth = -1; // particle depthv
+sprDepth = -1;
 
-scr_psystem_create();
-sprEmitter = part_emitter_create(sprSystem);
-scr_PiXELCANDY_ptypes_create();
-
-seq = 0
+scr_psystem_create()
+sprEmitter = part_emitter_create(sprSystem)
+scr_PiXELCANDY_ptypes_create()

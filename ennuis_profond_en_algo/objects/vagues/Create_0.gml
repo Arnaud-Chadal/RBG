@@ -1,5 +1,4 @@
 ligne = 2
-depth = 10000
 dead = 0
 event = 0
 pause = 0
@@ -35,6 +34,3 @@ f2 = 180
 r = [0, 0, 0, 0]
 g = [0, 0, 0, 0]
 b = [0, 0, 0, 0]
-
-//Swipe margin sets how accurate a swipe must be to be detected
-swipe_margin = 45

@@ -14,3 +14,4 @@ if nbr = 0
 }
 scr_particles_create(x, y, 9, 30)
 instance_destroy()
+instance_destroy(other)

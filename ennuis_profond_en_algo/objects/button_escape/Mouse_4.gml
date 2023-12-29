@@ -1,6 +1,5 @@
-if room  = menu
+/// Si la room est menu => ferme le jeu, sinon redirige vers le menu
+if room = menu
 {
-	room = menu
-	game_save("save.data")
 	game_end()
 }else room = menu
